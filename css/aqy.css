@@ -1,0 +1,2186 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    list-style: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navTop {
+    width: 100%;
+    height: 60px;
+    background-color: #2d2b2c;
+}
+
+.navTop .navBox {
+    position: relative;
+    margin: 0 auto;
+    background-color: #2d2b2c;
+    width: 1366px;
+    height: 60px;
+    z-index: 100;
+
+}
+.navTop .navBox .nBox{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.navTop .navBox .a1 {
+    width: 105px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 8px;
+    background: url("img/iqiyi-logo105x50.png") no-repeat;
+    float: left
+}
+
+.navTop .navBox .a2 {
+    width: 97px;
+    height: 48px;
+    background: url("img/8a997957180a4336b9f095000c66602a.png") no-repeat;
+    display: inline-block;
+    margin: 8px 0 0 30px;
+    float: left
+}
+
+.navTop .navBox input {
+    width: 419px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 20px;;
+    display: inline-block;
+    float: left;
+}
+
+.navTop .navBox .a3 {
+    width: 110px;
+    height: 36px;
+    background: url("img/topNav-v2.png") no-repeat 0 0;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -65px;
+}
+
+.navTop .navBox .ul1 {
+    float: right;
+    margin-top: 20px;
+}
+
+.navTop .navBox .ul1 .li1 {
+    float: left;
+    padding-left: 10px;
+    position: relative
+}
+
+.navTop .navBox .ul1 .li1 a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.navTop .navBox .ul1 .li1 a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox .ul1 .li1 .a4 .green {
+    width: 14px;
+    height: 12px;
+    display: inline-block;
+    background: url("img/nav-upload.png") no-repeat 0 0;
+    float: left;
+    margin-top: 3px
+}
+
+.navTop .navBox .ul1 .li1 .a4 .wz {
+    display: inline-block;
+    float: left;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 3px
+}
+
+.navTop .navBox .ul1 .li1 .a4:hover .green {
+    background: url("img/nav-upload-green.png") no-repeat
+}
+
+.navTop .navBox .ul1 .li1 .a4 .xsj {
+    width: 10px;
+    height: 10px;
+    background: url("img/navtitle_black1.png") no-repeat -82px -76px;
+    display: inline-block;
+    margin-top: 8px
+}
+
+.navTop .navBox .ul1 .li1 .ul2 {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100px;
+    display: none;
+    z-index: 1;
+    color: #333
+}
+
+/*.navTop .navBox .ul1 .li1:hover .ul2{display: block;}*/
+.navTop .navBox .ul1 .li1 .a4:hover {
+    background: url("img/navtitle_black1.png") no-repeat -82px -97px
+}
+
+.navTop .navBox .ul1 .li1 .ul2 .span1 {
+    display: inline-block;
+    border-top: 10px solid #2d2b2c;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid #2d2b2c;
+    border-right: 10px solid #2d2b2c;
+    position: absolute;
+    left: 40px;
+    top: -20px
+}
+
+.navTop .navBox .ul1 .li1 .ul2 li {
+    padding: 5px 10px;
+}
+
+.navTop .navBox .ul1 .li1 .ul2 li:hover {
+    background-color: #b0b0b0
+}
+
+.navTop .navBox .ul1 .li1 .ul2 li:hover a {
+    color: #7cb132
+}
+
+.navTop .navBox .ul1 .li1 .ul2 li a {
+    color: #333
+}
+
+.navTop .navBox .ul1 .li1 .a6 .xsj {
+    width: 10px;
+    height: 10px;
+    background: url("img/navtitle_black1.png") no-repeat -82px -76px;
+    display: inline-block;
+    margin-top: 8px
+}
+
+.navTop .navBox .ul1 .li1 .a6:hover {
+    background: url("img/navtitle_black1.png") no-repeat -82px -97px
+}
+
+.navTop .navBox .ul1 .li1 .a6 .wz {
+    display: inline-block;
+    float: left;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 3px
+}
+
+.navTop .navBox .ul1 .li1 .a7 .xsj {
+    width: 10px;
+    height: 10px;
+    background: url("img/navtitle_black1.png") no-repeat -82px -76px;
+    display: inline-block;
+    margin-top: 8px
+}
+
+.navTop .navBox .ul1 .li1 .a7 .wz {
+    display: inline-block;
+    float: left;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 3px
+}
+
+.navTop .navBox .ul1 .li1 .a7:hover {
+    background: url("img/navtitle_black1.png") no-repeat -82px -97px
+}
+
+/*大轮播图*/
+.navTop .navBox1 {
+    position: fixed;
+    width: 100%;
+    height: 410px;
+    margin:0 auto;
+}
+.navTop .navBox1 {
+    position: relative;
+    width: 100%;
+    height: 410px;
+    margin: 0 auto;
+}
+
+.navTop .navBox1  ul {
+    /*position: absolute;*/
+    position: relative;
+    margin: 0 auto;
+    width: 1366px;
+    height: 410px;
+    /*left: 0;*/
+    /*top: 0;*/
+
+}
+
+.navTop .navBox1 ul li {
+    position: absolute;
+    left: 0;
+    top:0;
+    margin: 0 auto;
+    width: 1366px;
+    height: 410px;
+    float: left;
+    z-index: 0;
+    opacity: 0;
+
+}
+.navTop .navBox1 ul li img{
+    /*margin: 0 auto;*/
+    display: inline-block;
+    width: 1366px;
+    height: 410px;
+    float: left;
+}
+
+.navTop .navBox1 div {
+    width: 218px;
+    height: 340px;
+    background-color: #2a2927;
+    opacity: 0.9;
+    position: absolute;
+    right: 100px;
+    top: 30px;
+    border-radius: 10px;
+    padding: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    z-index: 10;
+
+}
+
+.navTop .navBox1 div span {
+    float: left;
+    display: block;
+    color: #fff;
+    width: 198px;
+    height: 33px;
+    text-align: left;
+    padding-left: 20px;
+    line-height: 31px;
+    font-size: 12px;
+}
+
+/*.navTop .navBox1 div span:hover {*/
+    /*background-color: #7cb132*/
+/*}*/
+
+/*.navTop .navBox1 div span.change {*/
+    /*background-color: #7cb132*/
+/*}*/
+
+/*第2大模块*/
+.navTop .navBox2 {
+    background-color: #050304;
+    width: 100%;
+    height: 90px;
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.navTop .navBox2 div {
+    margin: 0 auto;
+    width: 1180px;
+    height: 81px;
+    border: 1px solid green;
+    border-radius: 5px;
+    padding-top: 7px;
+}
+
+.navTop .navBox2 div ul {
+    float: left;
+    padding-left: 25px;
+    font-size: 12px;
+    background: url("img/navMenu-line.png") no-repeat 0 -10px;
+}
+.navTop .navBox2 div .yu{
+    width: 54px;
+    height: 75px;
+}
+
+.navTop .navBox2 div .yu li {
+    width: 54px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+
+
+}
+
+.navTop .navBox2 div .yu li a {
+    color: #fff;
+
+
+}
+
+.navTop .navBox2 div .dian {
+    width: 132px;
+    height: 75px
+}
+
+.navTop .navBox2 div .dian li {
+    width: 66px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    float: left
+}
+
+.navTop .navBox2 div .dian li a {
+    color: #fff
+}
+
+.navTop .navBox2 div .dong {
+    width: 108px;
+    height: 75px
+}
+
+.navTop .navBox2 div .dong li {
+    width: 54px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    float: left
+}
+
+.navTop .navBox2 div .dong li a {
+    color: #fff
+}
+
+.navTop .navBox2 div .yin {
+    width: 108px;
+    height: 75px
+}
+
+.navTop .navBox2 div .yin li {
+    width: 54px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    float: left
+}
+
+.navTop .navBox2 div .yin li a {
+    color: #fff
+}
+
+.navTop .navBox2 div .cai {
+    width: 132px;
+    height: 75px
+}
+
+.navTop .navBox2 div .cai li {
+    width: 54px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    float: left
+}
+
+.navTop .navBox2 div .cai li a {
+    color: #fff
+}
+
+.navTop .navBox2 div .feng {
+    width: 192px;
+    height: 75px
+}
+
+.navTop .navBox2 div .feng li {
+    width: 95px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    float: left
+}
+
+.navTop .navBox2 div .feng li a {
+    color: #fff
+}
+
+.navTop .navBox2 div .you {
+    width: 192px;
+    height: 75px
+}
+
+.navTop .navBox2 div .you li {
+    width: 95px;
+    height: 25px;
+    text-align: left;
+    line-height: 25px;
+    float: left
+}
+
+.navTop .navBox2 div .you li a {
+    color: #fff
+}
+
+.navTop .navBox2 p {
+    display: inline-block;
+    width: 87px;
+    height: 74px;
+    float: right;
+    background: url("img/navMenu-line.png") no-repeat 0 -10px
+}
+
+.navTop .navBox2 p a {
+    float: right;
+    display: inline-block;
+    width: 80px;
+    height: 74px;
+    background: url("img/vip-star.jpg") no-repeat ;
+}
+
+.navTop .navBox2 div .you li a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox2 div .feng li a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox2 div .cai li a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox2 div .dong li a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox2 div .dian li a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox2 div .yu li a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox2 div ul:after {
+    content: "";
+    width: 1px;
+    height: 75px;
+    display: block;
+
+
+    /*background: url("img/navMenu-line.png") no-repeat 0 -10px;*/
+}
+
+/*第三大模块*/
+.navTop .navBox3 {
+    width: 1200px;
+    height: 453px;
+    margin: 0 auto
+}
+
+.navTop .navBox3 .navXb {
+    width: 400px;
+    height: 246px;
+    float: left;
+    margin-left: 20px;
+}
+
+.navTop .navBox3 .navXb div {
+    width: 380px;
+    height: 45px;
+    margin-top: -15px;
+    border-bottom: 2px solid green
+}
+
+.navTop .navBox3 .navXb div .jin {
+    display: inline-block;
+    font-size: 30px;
+    color: #7cb132;
+    padding-top: 5px;
+}
+
+.navTop .navBox3 .navXb div .geng {
+    display: inline-block;
+    font-size: 14px;
+    color: #7cb132;
+    padding-left: 5px;
+}
+
+.navTop .navBox3 .navXb div .du {
+    display: inline-block;
+    float: right;
+    color: #7cb132;
+    font-size: 14px;;
+    width: 66px;
+    height: 26px;
+    border: 1px solid #b0b0b0;
+    border-radius: 10px;
+    margin: 10px;
+    padding-left: 10px;
+}
+
+.navTop .navBox3 .navXb div .du i {
+    display: inline-block;
+    width: 15px;
+    height: 18px;
+    background: url("img/site-icons-qyIndex.png") no-repeat -121px -400px;
+    margin-top: 6px;
+    vertical-align: bottom;
+}
+
+.navTop .navBox3 .navXb h1 {
+    width: 380px;
+    height: 24px;
+    font-size: 20px;
+    margin-top: 10px;
+    text-align: center
+}
+
+.navTop .navBox3 .navXb ul li {
+    width: 380px;
+    height: 32px;
+    float: left
+}
+
+.navTop .navBox3 .navXb ul li a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox3 .navXb ul li i {
+    background: url("img/site-icons-qyIndex.png") no-repeat -101px -1422px;
+    width: 13px;
+    height: 15px;
+    display: inline-block;
+    float: left;
+    margin-top: 10px
+}
+
+.navTop .navBox3 .navXb ul li a {
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+    color: #333333
+}
+
+.navTop .navBox3 .navXb .an {
+    display: inline-block;
+    margin-top: 17px;
+}
+
+.navTop .navBox3 .navXb .shi {
+    display: inline-block;
+}
+
+.navTop .navBox3 .navXb .an img {
+    display: block
+}
+
+.navTop .navBox3 .navXb .shi img {
+    display: block
+}
+
+.navTop .navBox3 .navXb .an span {
+    display: block;
+    float: left;
+    width: 180px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #8c8c99
+}
+
+.navTop .navBox3 .navXb .shi span {
+    display: block;
+    float: left;
+    width: 180px;
+    height: 35px;
+    font-size: 14px;
+    line-height: 35px;
+    text-align: center;
+    background-color: #8c8c99
+}
+
+.navTop .navBox3 .navXb .an span:hover {
+    color: #7cb132
+}
+
+.navTop .navBox3 .navXb .shi span:hover {
+    color: #7cb132
+}
+
+/*轮播图*/
+.navTop .navBox3 {
+    margin-bottom: 15px
+}
+
+.navTop .navBox3 .navXb1 {
+    width: 400px;
+    height: 442px;
+    float: left;
+}
+
+.navTop .navBox3 .navXb1 .xlb {
+    width: 380px;
+    height: 252px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+    margin-bottom: 15px;
+}
+
+.navTop .navBox3 .navXb1 .xlb ul {
+    width: 380px;
+    height: 252px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.navTop .navBox3 .navXb1 .xlb .img1 {
+    position: absolute;
+    left: 0;
+    top: 110px;
+    z-index: 2;
+}
+
+.navTop .navBox3 .navXb1 .xlb .img2 {
+    position: absolute;
+    right: 0;
+    top: 110px;
+    z-index: 2;
+}
+
+.navTop .navBox3 .navXb1 .xlb ul li {
+    position: absolute;
+    left:0;
+    top:0;
+    opacity: 0;
+    z-index: 0;
+}
+
+.navTop .navBox3 .navXb1 .xlb ul li p {
+    position: absolute;
+    width: 374px;
+    height: 40px;;
+    bottom: 0;
+    line-height: 40px;
+    text-align: center;
+    background-color: #8c8c99;
+    opacity: 0.7
+}
+
+.navTop .navBox3 .navXb1 .xlb ul li p i {
+    display: inline-block;
+    width: 32px;
+    height: 27px;
+    margin-top: 7px;
+    margin-left: 7px;
+    margin-right: 7px;
+    background: url("img/index-playBtn.png") no-repeat;;
+    float: left
+}
+
+.navTop .navBox3 .navXb1 .xlb ul li p span {
+    display: block;
+    float: left;
+}
+
+/*.navTop .navBox3 .navXb1  .ya{width: 400px;height: 180px}*/
+.navTop .navBox3 .navXb1 .ya li {
+    width: 380px;
+    height: 32px;
+    float: left
+}
+
+.navTop .navBox3 .navXb1 .ya li i {
+    background: url("img/site-icons-qyIndex.png") no-repeat -101px -1422px;
+    width: 13px;
+    height: 15px;
+    display: block;
+    float: left;
+    margin-top: 10px;
+}
+
+.navTop .navBox3 .navXb1 .ya li a {
+    display: inline-block;
+    float: left;
+    margin-top: 8px;
+    color: #333333
+}
+
+.navTop .navBox3 .navXb1 .ya li a:hover {
+    color: #7cb132
+}
+
+/*3模块*/
+/*.navTop .navBox3 .navXb2{}*/
+.navTop .navBox3 .navXb2 li {
+    float: left;
+    margin-bottom: 15px;
+    padding-left: 10px
+}
+
+.navTop .navBox3 .navXb2 li a {
+    display: block;
+    float: left;
+    color: #333
+}
+
+.navTop .navBox3 .navXb2 li a img {
+    display: block;
+}
+
+.navTop .navBox3 .navXb2 li a span {
+    display: block;
+    font-size: 14px;
+    width: 180px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background-color: #f2f2f2;
+}
+
+.navTop .navBox3 .navXb2 li a span:hover {
+    color: #7cb132
+}
+
+/*第四大模块*/
+.navBox4 {
+    width: 1200px;
+    height: 427px;
+    margin: 0 auto;
+}
+
+.navBox4 .navBox4Left {
+    margin: 20px;
+    width: 1200px;
+    height: 427px;
+}
+
+.navBox4 .navBox4Left .Left {
+    /*margin-left: 20px;*/
+    width: 1000px;
+    height: 427px;
+    float: left;
+}
+
+.navBox4 .navBox4Left .Left .top {
+    float: left;
+    border-bottom: 2px solid #7cb132;
+    width: 980px;
+    height: 42px;
+    padding-top: 5px;
+    margin-bottom: 30px
+}
+
+.navBox4 .navBox4Left .Left .top .start {
+    width: 85px;
+    height: 34px;
+    font-size: 34px;
+    color: #7cb132;
+    background: url("img/tit-playBtn.png") no-repeat left;
+    display: inline-block;
+    text-align: right;
+}
+
+.navBox4 .navBox4Left .Left .top .start1 {
+    width: 40px;
+    height: 22px;
+    padding: 0 7px 0 5px;
+    color: #7cb132;
+}
+
+.navBox4 .navBox4Left .Left .top ul {
+    display: inline-block;
+    /*position: absolute;*/
+}
+
+.navBox4 .navBox4Left .Left .top ul li {
+    float: left;
+    /*position: absolute;*/
+    /*left: 0;*/
+    /*top:0;*/
+    padding-left: 22px;
+    padding-right: 8px;
+    margin-bottom: -3px;
+}
+
+.navBox4 .navBox4Left .Left .top ul .li1 {
+    background: url("img/divide-i.png") no-repeat left;
+}
+
+/*xlb*/
+.navBox4 .navBox4Left .Left .Carousel {
+    float: left;
+    width: 380px;
+    height: 340px;
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab {
+    width: 380px;
+    height: 340px;
+    position: relative;
+    /*overflow: hidden;*/
+    float: left;
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab ul {
+    width: 380px;
+    height: 340px;
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab ul li {
+    position: absolute;
+    left: 0;
+    top:0;
+    /*float: left;*/
+    width: 380px;
+    height: 340px;
+    /*padding-left: 22px;*/
+    z-index: 0;
+    opacity: 0;
+    filter: alpha(opacity:0);
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab ul li img {
+    width: 380px;
+    height: 270px;
+    /*opacity: 0;*/
+}
+
+.navBox4 .navBox4Left .Left .Carousel span {
+    display: inline-block;
+    width: 54px;
+    height: 16px;
+    border-radius: 5px;
+    background-color: #2a2927;
+    opacity: 0.8;
+    text-align: center;
+    font-size: 14px;
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab .span1 {
+    position: absolute;
+    left: 4px;
+    bottom: 74px;
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab .span2 {
+    position: absolute;
+    right: 4px;
+    bottom: 74px
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab ul li div {
+    background-color: #f2f2f2;
+    padding-left: 5px;
+    padding-top: 7px;
+    padding-right: 5px;
+    width: 370px;
+    font-size: 14px;
+    height: 47px;
+    margin-bottom: 15px;
+    margin-top: -3px;
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab ul li div a {
+    display: block;
+    color: #000000
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab ul li div .b1 {
+    font-size: 16px;
+    margin-bottom: 4px
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab ul li div .b2 {
+    font-size: 12px
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab ul li div a:hover {
+    color: #7cb132
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab .img1 {
+    position: absolute;
+    left: 0;
+    top: 120px;
+    z-index: 2;
+}
+
+.navBox4 .navBox4Left .Left .Carousel .tab .img2 {
+    position: absolute;
+    right: 0;
+    top: 120px;
+    z-index: 2;
+
+}
+
+/*内容2*/
+.navBox4 .navBox4Left .Left .Carousel2 {
+    /*border: 1px solid red;*/
+    height: 340px;
+    width:300px;
+    float: left;
+
+
+}
+.navBox4 .navBox4Left .Left .Carousel2 ul{
+
+    width: 600px;
+    overflow:hidden;
+    float: left;
+}
+.navBox4 .navBox4Left .Left .Carousel2:after {
+    display: block;
+    content: "";
+    clear: both
+}
+
+.navBox4 .navBox4Left .Left .Carousel2 li {
+    float: left;
+    width: 180px;
+    height: 170px;
+    position: relative;
+    padding-left: 20px;
+}
+
+.navBox4 .navBox4Left .Left .Carousel2 li a img {
+    width: 180px;
+    height: 101px
+}
+
+.navBox4 .navBox4Left .Left .Carousel2 li a span {
+    display: inline-block;
+}
+
+.navBox4 .navBox4Left .Left .Carousel2 li a .span1 {
+    width: 42px;
+    height: 16px;
+    font-size: 14px;
+    background-color: #2a2927;
+    opacity: 0.8;
+    border-radius: 5px;
+    position: absolute;
+    left: 24px;
+    top: 80px;
+    text-align: center;
+    color: #000000
+}
+
+.navBox4 .navBox4Left .Left .Carousel2 li a .span2 {
+    width: 55px;
+    height: 16px;
+    font-size: 14px;
+    background-color: #2a2927;
+    opacity: 0.8;
+    border-radius: 5px;
+    position: absolute;
+    right: 4px;
+    top: 80px;
+    text-align: center;
+    color: #000000
+}
+
+.navBox4 .navBox4Left .Left .Carousel2 li a div {
+    width: 170px;
+    height: 47px;
+    background-color: #f2f2f2;
+    padding: 7px 5px 0 5px;
+    margin-top: -3px;
+    margin-bottom: 15px
+}
+
+.navBox4 .navBox4Left .Left .Carousel2 li a div .p1 {
+    font-size: 16px;
+    color: #2a2927;
+}
+
+.navBox4 .navBox4Left .Left .Carousel2 li a div .p2 {
+    font-size: 12px;
+    color: #999999;
+    width: 170px;
+    height: 20px;
+    margin-top: 7px
+}
+
+/*有浮动*/
+.navTop .navBox4 .navBox4Left .right {
+    float: left;
+    width: 180px;
+    height: 412px;
+    margin-top: 5px
+}
+
+.navTop .navBox4 .navBox4Left .right .rTop div {
+    width: 194px;
+    height: 42px;
+    display: inline-block;
+    border-bottom: 2px solid #7cb132
+}
+
+.navBox4 .navBox4Left .right .rTop div .span1 {
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color: #7cb132;
+    background: url("img/tit-playBtn.png") no-repeat left;
+    display: inline-block;
+    text-align: right;
+    padding-left: 20px
+}
+
+.navBox4 .navBox4Left .right .rTop div .span2 {
+    width: 41px;
+    height: 22px;
+    padding: 0 7px 0 5px;
+    color: #7cb132;
+}
+
+.navBox4 .navBox4Left .rImg {
+    width: 170px;
+    height: 325px;
+    margin-top: 30px
+}
+
+.navBox4 .navBox4Left .rImg a img {
+    width: 180px;
+    height: 101px
+}
+
+.navBox4 .navBox4Left .rImg p {
+    display: inline-block;
+    width: 170px;
+    height: 31px;
+    padding: 7px 5px 0 5px;
+    background-color: #f2f2f2;
+    font-size: 14px;
+    margin-top: -3px;
+    border-bottom: 1px dashed;
+    line-height: 37px;
+    text-align: left;
+    opacity: 0.8;
+}
+
+.navBox4 .navBox4Left .rImg ul {
+    padding: 4px 10px 13px 10px;
+    background-color: #f2f2f2;
+    width: 160px;
+    height: 170px;
+    opacity: 0.8;
+}
+
+.navBox4 .navBox4Left .rImg ul li {
+    width: 170px;
+    height: 34px;
+    font-size: 14px;
+    text-align: left;
+    line-height: 34px
+}
+
+.navBox4 .navBox4Left .rImg ul li a {
+    color: #2d2b2c;
+}
+
+.navBox4 .navBox4Left .rImg ul li i {
+    background: url("img/site-icons-qyIndex.png") no-repeat -200px -700px;
+    width: 6px;
+    height: 6px;
+    display: inline-block
+}
+
+.navBox4 .navBox4Left .rImg ul li a span:hover {
+    color: #008000;
+
+}
+/*第五个模块*/
+.navTop .navBox5{
+    margin: 0 auto;
+    width: 1200px;
+    height: 279px;
+    /*padding-left: 20px;*/
+}
+.navTop .navBox5 .tab{
+    width: 1200px;
+    height: 279px;
+}
+.navTop .navBox5 .tab h1{
+    width: 1200px;
+    height: 47px;
+    padding-top: 15px;
+    border-bottom: 2px solid #7cb132;
+    margin-bottom: 25px;
+}
+.navTop .navBox5 .tab .love{
+    width: auto;
+    height: auto;
+    font-size: 30px;
+    color: #7cb132;
+    background: url("img/tit-playBtn.png") no-repeat left;
+    display: inline-block;
+    text-align: right;
+    padding-left: 20px
+}
+.navTop .navBox5 .tab .mach{
+    width: 41px;
+    height: 22px;
+    padding: 0 7px 0 5px;
+    color: #7cb132;
+    font-size: 16px;
+}
+.navTop .navBox5 .tab ul{
+    width: 1230px;
+    height: 279px;
+    margin-left: -25px;
+}
+.navTop .navBox5 .tab ul li{
+    float: left;
+    width: 180px;
+    height: 175px;
+    margin-left:25px;
+    background-color: #f2f2f2;
+}
+.navTop .navBox5 .tab ul li .img{
+    display: inline-block;
+    padding: 14px 0 0 14px;
+    float: left;
+
+}
+.navTop .navBox5 .tab li img{
+    display: inline-block;
+    width: 54px;
+    height: 54px;
+    border-radius: 100px;
+    float: left;
+    margin-top: 14px;
+    margin-left: 14px;
+}
+.navTop .navBox5 .tab li a span{
+    display: inline-block;
+    float: left;
+    color: #2d2b2c;
+    margin-top: 14px;
+}
+.navTop .navBox5 .tab li div{
+    display:block;
+    float: left;
+    margin-top: 5px;
+}
+.navTop .navBox5 .tab li div span{
+    margin-left: 5px;
+}
+.navTop .navBox5 .tab li div .see{
+    color:#999;
+    font-size: 14px;
+}
+.navTop .navBox5 .tab li .zui{
+    display: block;
+    width: 139px;
+    height: 32px;
+    font-size: 12px;
+    clear: both;
+    margin-left: 14px;
+    margin-top:90px;
+    color: #999;
+}
+.navTop .navBox5 .tab li .read{
+    display:inline-block;
+    width: 148px;
+    height: 26px;
+    background-color: #7cb132;
+    margin-left: 14px;
+    margin-top: 14px;
+    text-align: center;
+    line-height: 26px;
+    border-radius: 5px;
+}
+
+
+
+.navTop .navBox6{
+    margin: 0 auto;
+    width: 1200px;
+    height: 184px;
+    padding: 25px 0 25px 0;
+}
+.navTop .navBox6 .title{
+    width: 84px;
+    height: 22px;
+    background-color: #7cb132;
+    line-height: 22px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    text-align: center;
+}
+.navTop .navBox6 .animate{
+    position: relative;
+    width: 1200px;
+    height: 140px;
+    padding: 10px 0 10px 0;
+    border: 1px solid #008000;
+    overflow: hidden;
+}
+.navTop .navBox6 .animate .small{
+    position: absolute;
+    left: 0;
+    top: 10px;;
+    width: 1200px;
+    height: 140px;
+
+}
+.navTop .navBox6 .animate .small ul{
+    width: 1170px;
+    height: 140px;
+    float:left;
+    padding-left: 30px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    opacity: 0;
+
+
+}
+.navTop .navBox6 .animate .small ul li{
+    /*padding-left: 10px;*/
+    /*padding-right: 10px;*/
+    float: left;
+    width: 190px;
+    height: 140px;
+    position: relative;
+    display: inline-block;
+    /*background: url("img/meidi1.jpg") no-repeat;*/
+    /*background-color: red;*/
+    overflow: hidden;
+}
+.navTop .navBox6 .animate .small ul li .xd{
+    padding-left: 10px;
+    padding-right:10px;
+    float: left;
+    width: 170px;
+    height: 140px;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span1{
+    float: left;
+    width: 170px;
+    display: inline-block;
+    background: url("img/meidi1.jpg") no-repeat;
+    height:100px ;
+}
+.navTop .navBox6 .animate .small ul li .xd .span2{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/meidi2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .dd1{
+    float: left;
+    display: inline-block;
+    width: 0;
+    height: 140px;
+    background: url("img/zaoban.jpg")no-repeat;
+}
+.navTop .navBox6 .animate .small ul li .xd .span3{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/paonan1.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span4{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/paonan2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .dd2{
+    float: left;
+    display: inline-block;
+    width: 0;
+    height: 140px;
+    background: url("img/dpn.jpg")no-repeat;
+}
+.navTop .navBox6 .animate .small ul li .xd .span5{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/ysl.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span6{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/ysl2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .dd3{
+    float: left;
+    display: inline-block;
+    width: 0;
+    height: 140px;
+    background: url("img/dys.jpg")no-repeat;
+}
+.navTop .navBox6 .animate .small ul li .xd .span7{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/zbj.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span8{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/zbj2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .dd4{
+    float: left;
+    display: inline-block;
+    width: 0;
+    height: 140px;
+    background: url("img/haifeisi.jpg")no-repeat;
+}
+.navTop .navBox6 .animate .small ul li .xd .span9{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/xiaobao1.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span10{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/xiaobao2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .dd5{
+    float: left;
+    display: inline-block;
+    width: 0;
+    height: 140px;
+    background: url("img/datu5.jpg")no-repeat;
+}
+.navTop .navBox6 .animate .small ul li .xd .span11{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/dingji1.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span12{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/dingji2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .dd6{
+    float: left;
+    display: inline-block;
+    width: 0;
+    height: 140px;
+    background: url("img/datu6.jpg")no-repeat;
+}
+.navTop .navBox6 .animate .small ul li .xd .span13{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/tuniv1.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span14{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/tuniv2.png")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span15{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/yu1.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span16{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/yu2.JPG")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span17{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/wuchu1.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span18{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/wuchu2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span19{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/yimo.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span20{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/pinzhi2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span21{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/pinzhi1.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span22{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/pinzhi2.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span23{
+    float: left;
+    width: 170px;
+    height: 100px;
+    background: url("img/che1.jpg")no-repeat;
+    display: inline-block;
+}
+.navTop .navBox6 .animate .small ul li .xd .span24{
+    float: left;
+    width: 170px;
+    height: 40px;
+    background: url("img/che2.jpg")no-repeat;
+    display: inline-block;
+}
+
+
+
+
+
+
+.navTop .navBox6 .animate .left{
+    width: 15px;
+    height: 26px;
+    background: url("img/arrow-left.png")no-repeat;
+    position: absolute;
+    left: 5px;;
+    top: 70px;;
+    z-index: 2;
+    cursor: pointer;
+}
+.navTop .navBox6 .animate .right{
+    width: 15px;
+    height: 26px;
+    background: url("img/arrow-right.png")no-repeat;
+    position: absolute;
+    right: 5px;;
+    top: 70px;;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+
+.navTop .navBox7{
+    margin: 0 auto;
+    width: 1200px;
+    height: 156px;
+    background-color: #f7f7f7;
+    border: 1px solid #999999;
+}
+.navTop .navBox7 .fin{
+    width: 599px;
+    height: 100%;
+    border-right: 1px solid #999999;
+    float: left;
+
+}
+.navTop .navBox7 .fin div{
+    width: 549px;
+    height: 25px;
+    padding: 20px 20px 10px 20px ;
+}
+.navTop .navBox7 .fin div .hezuo{
+    font-size: 28px;
+
+}
+.navTop .navBox7 .fin div .mach{
+    font-size: 12px;
+}
+.navTop .navBox7 .fin ul{
+    width: 569px;
+    height: 84px;
+    padding: 0 0 15px 20px;
+}
+.navTop .navBox7 .fin ul li{
+    width: 80px;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    float: left;
+    font-size: 12px;
+}
+.navTop .navBox7 .fin ul li a{
+    color: #2d2b2c;
+}
+.navTop .navBox7 .fin2{
+    float: left;
+    width: 599px;
+    border-right: none;
+}
+.navTop .navBox7 .fin2 div{
+    width: 549px;
+    height: 25px;
+    padding: 20px 20px 10px 20px ;
+}
+
+.navTop .navBox7 .fin2 div .hezuo{
+    font-size: 28px;
+
+}
+.navTop .navBox7 .fin2 div .mach{
+    font-size: 12px;
+}
+.navTop .navBox7 .fin2 ul{
+    width: 599px;
+    height: 84px;
+    padding: 0 0 15px 20px;
+}
+.navTop .navBox7 .fin2 ul li{
+    width: 190px;
+    height: 28px;
+    line-height: 28px;
+    text-align: left;
+    float: left;
+    font-size: 12px;
+}
+.navTop .navBox7 .fin2 ul li a{
+    color: #2d2b2c;
+}
+
+
+
+/*登录页面*/
+.navTop .dNavBox8{
+    width: 100%;
+    height: 100%;
+    background:rgba(34,15,20,0.6);
+    display: none;
+    z-index: 20;
+    position: fixed;
+    left: 0;
+    top:0;
+}
+.navTop .navBox8{
+    /*display: none;*/
+    width: 512px;
+    height: 500px;
+    position: absolute;
+    top: 30px;
+    left:450px ;
+    margin: 0 auto;
+    z-index: 10;
+    cursor: move;
+}
+
+.navTop .navBox8 .navBox8_a{
+    width: 462px;
+    height: 170px;
+    margin: 0 auto;
+    /*position: absolute;*/
+}
+.navTop .navBox8 .x{
+    float: left;
+    position:absolute ;
+    right: 10px;
+    bottom: 120px;
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    background: url("img/pop-star-close.png")no-repeat 0 0;
+    left: 460px;
+    top:80px;
+    cursor: pointer;
+}
+.navTop .navBox8 .x:hover{
+    background: url("img/pop-star-close.png")no-repeat 0 -14px;
+}
+.navTop .navBox8 .navBox8_b{
+    width: 462px;
+    height: 273px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+.navTop .navBox8 .navBox8_b .navC{
+    position: absolute;
+    width: 380px;
+    height: 272px;
+    padding-left: 47px;
+}
+.navTop .navBox8 .navBox8_b .navC .kong{
+    width: 300px;
+    height: 30px;
+}
+.navTop .navBox8 .navBox8_b .navC .nnn{
+    float: left;
+
+}
+.navTop .navBox8 .navBox8_b .navC .nnn .zh{
+    width: 49px;
+    height: 52px;
+    float: left;
+    padding: 5px 0 0 5px;
+}
+
+.navTop .navBox8 .navBox8_b .navC .nnn .input{
+    width: 267px;
+    height: 57px;
+    float: left;
+}
+.navTop .navBox8 .navBox8_b .navC .nnn .input a{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left: 350px;
+    top: 35px;
+}
+.navTop .navBox8 .navBox8_b .navC .nnn .input input{
+    width: 267px;
+    height: 21px;
+}
+.navTop .navBox8 .navBox8_b .navC .sdi{
+    width: 267px;
+    height: 16px;
+    float: left;
+    margin-top: -11px;
+    padding-left: 54px;
+    font-size: 12px;
+}
+.navTop .navBox8 .navBox8_b .navC .sdi span{
+    display: inline-block;
+    /*padding-left: 23px;*/
+    width: 60px;
+    height: 20px;
+
+}
+.navTop .navBox8 .navBox8_b .navC .sdi div{
+    display: inline-block;
+    float: right;
+}
+.navTop .navBox8 .navBox8_b .navC .sdi span p{
+    float: left;
+    display: inline;
+}
+.navTop .navBox8 .navBox8_b .navC .sdi span i{
+    float: left;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background: url("img/navLoginV3.png")no-repeat -116px -108px ;
+
+}
+.navTop .navBox8 .navBox8_b .navC .sign{
+    float: left;
+    display: block;
+    width: 272px;
+    height: 32px;
+    line-height: 32px;
+    background-color: #7cb132;
+    color: #fff;
+    text-align:center ;
+    margin-left: 54px;
+    margin-top: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.navTop .navBox8 .navBox8_b .navC .get{
+    display: block;
+    float: left;
+    margin-top:25px;
+    color: #b5b5b5;
+    width:272px ;
+    font-size: 12px;
+    padding-left: 54px;
+    text-align: center;
+    cursor: pointer;
+}
+.navTop .navBox8 .navBox8_b .navC .get:hover{
+    color: #7cb132;
+}
+
+.navTop .navBox8 .navBox8_b .navC .i{
+    float: left;
+    width: 272px;
+    height: 6px;
+    padding-left: 54px;;
+    padding-top: 19px;
+    cursor: pointer;
+
+}
+.navTop .navBox8 .navBox8_b .navC .i:hover i{
+    background: url("img/thirdLoginIcon.png")no-repeat -60px -40px;
+}
+.navTop .navBox8 .navBox8_b .navC .i i{
+    width: 10px;
+    height: 6px;
+    display: block;
+    margin-left: 130px;
+    background: url("img/thirdLoginIcon.png")no-repeat -40px -40px;
+}
+.navTop .navBox8 .navBox8_b .navC ul{
+    width: 272px;
+    height: 51px;
+    /*background-color: red;*/
+    float: left;
+    margin-left: 54px;
+    margin-top: -60px;
+    display: none;
+}
+.navTop .navBox8 .navBox8_b .navC ul .li1{
+    width: 26px;
+    height: 26px;
+    background: url("img/thirdLoginIcon.png")no-repeat 0 0;
+}
+.navTop .navBox8 .navBox8_b .navC ul .li2{
+    width: 26px;
+    height: 26px;
+    background: url("img/thirdLoginIcon.png")no-repeat -40px 0;
+}
+.navTop .navBox8 .navBox8_b .navC ul .li3{
+    width: 26px;
+    height: 26px;
+    background: url("img/thirdLoginIcon.png")no-repeat -80px 0;
+}
+.navTop .navBox8 .navBox8_b .navC ul .li4{
+    width: 26px;
+    height: 26px;
+    background: url("img/thirdLoginIcon.png")no-repeat -120px 0;
+}
+.navTop .navBox8 .navBox8_b .navC ul .li5{
+    width: 26px;
+    height: 26px;
+    background: url("img/thirdLoginIcon.png")no-repeat -160px 0;
+}
+.navTop .navBox8 .navBox8_b .navC ul .li6{
+    width: 26px;
+    height: 26px;
+    background: url("img/thirdLoginIcon.png")no-repeat -200px 0;
+}
+.navTop .navBox8 .navBox8_b .navC ul .li7{
+    width: 26px;
+    height: 26px;
+    background: url("img/thirdLoginIcon.png")no-repeat -240px 0;
+}
+.navTop .navBox8 .navBox8_b .navC ul .li8{
+    width: 26px;
+    height: 26px;
+    background: url("img/thirdLoginIcon.png")no-repeat -280px 0;
+}
+.navTop .navBox8 .navBox8_b .navC ul li{
+    float: left;
+    margin-right: 8px;
+    margin-top: 8px;
+}
+
+
+.navTop .navBox9 {
+    margin: 0 auto;
+    background-color: #2d2b2c;
+    width: 1366px;
+    height: 60px;
+    opacity: 0;
+    z-index: 50;
+    position: fixed;
+    left:0;
+    top:0;
+    /*display: none;*/
+
+
+}
+.navTop .navBox9 .nBox{
+    width: 1200px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.navTop .navBox9 .a1 {
+    width: 105px;
+    height: 50px;
+    display: inline-block;
+    margin-top: 8px;
+    background: url("img/iqiyi-logo105x50.png") no-repeat;
+    float: left
+}
+
+.navTop .navBox9 .a2 {
+    width: 97px;
+    height: 48px;
+    background: url("img/8a997957180a4336b9f095000c66602a.png") no-repeat;
+    display: inline-block;
+    margin: 8px 0 0 30px;
+    float: left
+}
+
+.navTop .navBox9 input {
+    width: 419px;
+    height: 32px;
+    margin-top: 10px;
+    margin-left: 20px;;
+    display: inline-block;
+    float: left;
+}
+
+.navTop .navBox9 .a3 {
+    width: 110px;
+    height: 36px;
+    background: url("img/topNav-v2.png") no-repeat 0 0;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: -65px;
+}
+
+.navTop .navBox9 .ul1 {
+    float: right;
+    margin-top: 20px;
+}
+
+.navTop .navBox9 .ul1 .li1 {
+    float: left;
+    padding-left: 10px;
+    position: relative
+}
+
+.navTop .navBox9 .ul1 .li1 a {
+    font-size: 14px;
+    color: #fff;
+}
+
+.navTop .navBox9 .ul1 .li1 a:hover {
+    color: #7cb132
+}
+
+.navTop .navBox9 .ul1 .li1 .a4 .green {
+    width: 14px;
+    height: 12px;
+    display: inline-block;
+    background: url("img/nav-upload.png") no-repeat 0 0;
+    float: left;
+    margin-top: 3px
+}
+
+.navTop .navBox9 .ul1 .li1 .a4 .wz {
+    display: inline-block;
+    float: left;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 3px
+}
+
+.navTop .navBox9 .ul1 .li1 .a4:hover .green {
+    background: url("img/nav-upload-green.png") no-repeat
+}
+
+.navTop .navBox9 .ul1 .li1 .a4 .xsj {
+    width: 10px;
+    height: 10px;
+    background: url("img/navtitle_black1.png") no-repeat -82px -76px;
+    display: inline-block;
+    margin-top: 8px
+}
+
+.navTop .navBox9 .ul1 .li1 .ul2 {
+    background-color: #fff;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    width: 100px;
+    display: none;
+    z-index: 1;
+    color: #333
+}
+
+/*.navTop .navBox .ul1 .li1:hover .ul2{display: block;}*/
+.navTop .navBox9 .ul1 .li1 .a4:hover {
+    background: url("img/navtitle_black1.png") no-repeat -82px -97px
+}
+
+.navTop .navBox9 .ul1 .li1 .ul2 .span1 {
+    display: inline-block;
+    border-top: 10px solid #2d2b2c;
+    border-bottom: 10px solid #fff;
+    border-left: 10px solid #2d2b2c;
+    border-right: 10px solid #2d2b2c;
+    position: absolute;
+    left: 40px;
+    top: -20px
+}
+
+.navTop .navBox9 .ul1 .li1 .ul2 li {
+    padding: 5px 10px;
+}
+
+.navTop .navBox9 .ul1 .li1 .ul2 li:hover {
+    background-color: #b0b0b0
+}
+
+.navTop .navBox9 .ul1 .li1 .ul2 li:hover a {
+    color: #7cb132
+}
+
+.navTop .navBox9 .ul1 .li1 .ul2 li a {
+    color: #333
+}
+
+.navTop .navBox9 .ul1 .li1 .a6 .xsj {
+    width: 10px;
+    height: 10px;
+    background: url("img/navtitle_black1.png") no-repeat -82px -76px;
+    display: inline-block;
+    margin-top: 8px
+}
+
+.navTop .navBox9 .ul1 .li1 .a6:hover {
+    background: url("img/navtitle_black1.png") no-repeat -82px -97px
+}
+
+.navTop .navBox9 .ul1 .li1 .a6 .wz {
+    display: inline-block;
+    float: left;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 3px
+}
+
+.navTop .navBox9 .ul1 .li1 .a7 .xsj {
+    width: 10px;
+    height: 10px;
+    background: url("img/navtitle_black1.png") no-repeat -82px -76px;
+    display: inline-block;
+    margin-top: 8px
+}
+
+.navTop .navBox9 .ul1 .li1 .a7 .wz {
+    display: inline-block;
+    float: left;
+    line-height: 14px;
+    text-align: center;
+    margin-top: 3px
+}
+
+.navTop .navBox9 .ul1 .li1 .a7:hover {
+    background: url("img/navtitle_black1.png") no-repeat -82px -97px
+}
+
+
+.navTop .navBox10{
+    width: 1200px;
+    height: 170px;
+    margin: 0 auto;
+}
+.navTop .navBox10 .nav{
+    width: 1200px;
+    height: 170px;
+}
+.navTop .navBox10 .nav ul{
+    width: 1230px;
+    height: 170px;
+    margin:-25px;
+    margin-top: 25px;
+}
+.navTop .navBox10 .nav ul li{
+    float: left;
+    width: 180px;
+    height: 170px;
+    padding-left: 25px;
+}
+.navTop .navBox10 .nav ul li div{
+    background-color: #f2f2f2;
+}
+.navTop .navBox10 .nav ul li span{
+    display: block;
+}
+
+
+.navTop .navBox11{
+    width: 1349px;
+    height: 178px;
+    border-top: 1px solid #999999;
+    margin: 25px 0;
+}
+.navTop .navBox11 .jw{
+    width: 1200px;
+    height: 58px;
+    margin: 10px 75px 0 75px;
+    padding-top: 10px;
+}
+.navTop .navBox11 .jw ul{
+    width: 1200px;
+    height: 58px;
+}
+.navTop .navBox11 .jw ul li{
+    float: left;
+}
+.navTop .navBox11 .jw ul li a{
+    display: block;
+    width: auto;
+    height: 14px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #999999;
+}
+.navTop .navBox11 .jw ul .li1{
+    width: 150px;
+    height: 58px;
+    padding-right: 60px;
+}
+.navTop .navBox11 .jw ul .li2{
+    width: 128px;
+    height: 58px;
+    padding-right: 60px;
+}
+.navTop .navBox11 .jw ul .li3{
+    width: 170px;
+    height: 58px;
+    padding-right: 60px;
+}
+.navTop .navBox11 .jw ul .li4{
+    width: 221px;
+    height: 56px;
+    padding-right: 60px;
+}
+.navTop .navBox11 .jw ul .li5{
+    width: 286px;
+    height: 56px;
+}
+.navTop .navBox11 .gs{
+    width: 1349px;
+    height: 18px;
+    margin: 0 auto;
+    padding-top: 15px;
+    padding-bottom: 10px;
+}
+.navTop .navBox11 .gs ul{
+    width: 1000px;
+    height: 18px;
+    margin: 0 auto;
+}
+.navTop .navBox11 .gs ul li{
+    float: left;
+    padding: 0 10px;
+}
+.navTop .navBox11 .gs ul li a{
+    color: #999999;
+    font-size: 12px;
+}
+.navTop .navBox11 .ch{
+    width: 1349px;
+    height: 29px;
+    padding:  5px 0;
+}
+.navTop .navBox11 .ch ul{
+    margin: 0 auto;
+    width: 1000px;
+    height: 29px;
+}
+.navTop .navBox11 .ch ul li{
+    float: left;
+    color: #999999;
+    font-size: 12px;
+    padding-left: 30px;
+}
+.navTop .navBox11 .fd{
+    width: 1349px;
+    height: 18px;
+    padding: 5px 0;
+}
+.navTop .navBox11 .fd ul{
+    width: 500px;
+    height: 18px;
+    margin: 0 auto;
+}
+.navTop .navBox11 .fd ul li{
+    float: left;
+    font-size: 12px;
+    color: #999999;
+}
+.navTop .navBox11 .fd ul .lii{
+    padding-right: 20px;
+}
+.navTop .navBox11 .fd ul .lil{
+    /*background-color: #303437;*/
+}
+
+
+.navTop .navBox12{
+    position: fixed;
+    right: 0;
+    bottom:40px;
+    width: 40px;
+    height: 80px;
+    background-color: #7cb132;
+    z-index: 60;
+    /*display: none;*/
+}
+.navTop .navBox12 .div1{
+    width: 40px;
+    height: 40px;
+    border-bottom: 1px solid #8c8c99 ;
+    text-align: center;
+    line-height: 40px;
+}
+.navTop .navBox12 .div1 span{
+
+
+
+}
+.navTop .navBox12 .div2{
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    /*border-bottom: 1px solid #8c8c99 ;*/
+    text-align: center;
+}
+.navTop .navBox12 .div2 span{
+    /*display: block;*/
+    /*width: 20px;*/
+    /*height: 20px;*/
+    /*border-top: 2px solid #303437;*/
+    /*border-left: 2px solid #303437;*/
+    /*-webkit-transform:rotate(-135deg);*/
+}
+.navTop .navBox12 div{
+    cursor: pointer;
+}
+
